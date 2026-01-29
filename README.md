@@ -30,13 +30,7 @@ This feature exists in Canvas, and I missed having it available in Halo, so I bu
 ## Usage
 
 1. Open Halo in your browser.
-
-![Halo URL In Browser](Screenshots/halo-url.png)
-
 2. Navigate to your grades page.
-
-![Grades Page Button](Screenshots/grades-button.png)
-
 3. Click the "What If?" button added by the extension.
 
 ![What-If Button](Screenshots/whatif-button.png)
