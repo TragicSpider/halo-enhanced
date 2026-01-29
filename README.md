@@ -46,7 +46,7 @@ Many students rely on "What If?" tools to plan their academic performance. Since
 
 ## License
 
-MIT License (or specify if different)
+MIT License
 
 ## Disclaimer
 
