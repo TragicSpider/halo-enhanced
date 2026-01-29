@@ -1,0 +1,42 @@
+/* ---------- HALO WHAT-IF MODE STYLING ---------- */
+
+/* The What-If input boxes */
+.halo-whatif-input {
+  width: 40px;
+  background: transparent;
+  color: #000;
+  border: none;
+  border-bottom: 1px solid #888;
+  text-align: right;
+  font-size: inherit;
+  font-family: inherit;
+  outline: none;
+}
+
+/* When the extension is in What-If mode, tint the relevant grades */
+.halo-whatif-active [data-testid='student_scored_points'],
+.halo-whatif-active .Points_totalPoints__0YI7s,
+.halo-whatif-active .Points_totalPoints__0YI7s.AssessmentTable_score__Exj27 {
+  color: #8000ff !important; /* purple What-If color */
+}
+
+/* The What-If toggle button */
+#toggle-whatif-btn {
+  margin-top: 5px;
+  margin-left: 10px; 
+  background: rgb(26, 101, 176);
+  color: #fff;
+  border: 1px solid #555;
+  border-radius: 6px;
+  padding: 4px 10px;
+  font-family: sans-serif;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+  
+}
+
+#toggle-whatif-btn.active {
+  background: #fff;
+  color:  rgb(26, 101, 176);
+}

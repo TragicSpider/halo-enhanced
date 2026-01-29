@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Halo Grade Enhancer",
+  "version": "1.0",
+  "description": "Adds Canvas-style What-If Grades to Halo portal.",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "all_frames": true
+    }
+  ]
+}
