@@ -8,6 +8,7 @@ Halo Enhanced is a Chrome extension that adds a "What If?" grade calculator to t
 
 This feature exists in Canvas, and I missed having it available in Halo, so I built this extension to replicate and improve that functionality.
 
+![What-If Mode](screenshots/whatif-main.png)
 ## Features
 
 - "What If?" grade calculator for assignments
@@ -29,10 +30,15 @@ This feature exists in Canvas, and I missed having it available in Halo, so I bu
 ## Usage
 
 1. Open Halo in your browser.
+   ![Halo URL In Browser](screenshots/halo-url.png)
 2. Navigate to your grades page.
+   ![Grades Page Button](screenshots/grades-button.png)
 3. Click the "What If?" button added by the extension.
+   ![What-If Button](screenshots/whatif-button.png)
 4. Enter estimated scores for assignments.
+   ![What-If Score Input](screenshots/whatif-score-input.png)
 5. View your projected final grade.
+   ![What-If Projected Grade](screenshots/whatif-projected-grade.png)
 
 ## Technologies Used
 
