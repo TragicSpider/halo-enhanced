@@ -40,3 +40,35 @@
   background: #fff;
   color:  rgb(26, 101, 176);
 }
+
+/* What-If options (shown only while in What-If mode) */
+.halo-whatif-options {
+  display: none;
+  margin-left: 10px;
+  font-family: sans-serif;
+  font-size: 13px;
+}
+
+.halo-whatif-options.active {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.halo-exclude-ungraded-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* Ungraded rows that are currently excluded from totals (until the user edits them) */
+.halo-ungraded-excluded {
+  opacity: 0.55;
+}
+
+/* If we mark the whole score cell, keep it readable but clearly "disabled". */
+td.halo-ungraded-excluded {
+  opacity: 0.55;
+}
